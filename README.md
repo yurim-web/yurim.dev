@@ -112,8 +112,8 @@ src/
 
 ```bash
 # 저장소 클론
-git clone https://github.com/yurim-web/frontend-portfolio.git
-cd frontend-portfolio
+git clone https://github.com/yurim-web/yurim.dev.git
+cd yurim.dev
 
 # 패키지 설치
 npm install
