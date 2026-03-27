@@ -76,21 +76,22 @@
 | React | react.png |
 | Next.js | next.png |
 | Gsap.js | gsap.png |
-| Git/Github | git.png + github.png |
+| Git | git.png |
+| GitHub | github.png |
 | SourceTree | sourcetree.png |
-| Notion | notion_2.png |
-| Confluence | confluence.png |
-| Figma | figma_2.png |
+| Notion | notion_icon.svg |
+| Confluence | confluence.svg |
+| Figma | figma.png |
 | Photoshop | photoshop.png |
 | Illustrator | illustrator.png |
 | Cafe24 | cafe24.png |
 
 ---
 
-### StrenthToggleBox
+### StrengthToggleBox
 
-> `src/common/box/StrenthToggleBox.tsx`
-> 스킬 탭 버튼 목록 컨테이너. 15개 스킬 탭을 렌더링하고 선택 상태를 관리.
+> `src/common/box/StrengthToggleBox.tsx`
+> 스킬 탭 버튼 목록 컨테이너. 16개 스킬 탭을 렌더링하고 선택 상태를 관리.
 
 **Props**
 
@@ -114,8 +115,8 @@
 
 | 값 | 타입 | 설명 |
 |---|---|---|
-| `is_dark_mode` | `boolean` | 현재 다크 모드 여부 |
-| `toggle_dark_mode` | `() => void` | 다크 모드 전환 함수 |
+| `isDarkMode` | `boolean` | 현재 다크 모드 여부 |
+| `toggleDarkMode` | `() => void` | 다크 모드 전환 함수 |
 
 ---
 
